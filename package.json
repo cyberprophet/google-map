@@ -9,6 +9,8 @@
   "author": "cyberprophet",
   "license": "ISC",
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.15.1",
     "express": "^4.18.2"
-  }
+  },
+  "type": "module"
 }
