@@ -12,6 +12,17 @@ const mapOptions = {
 }
 loader.loadCallback(e =>
 {
+    if (window.matchMedia)
+    {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches)
+        {
+            console.log('dark')
+        }
+        else
+        {
+            console.log('light')
+        }
+    }
     if (e)
     {
         console.log(e)
